@@ -1,0 +1,35 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "platon.Server", "platon\Server\platon.Server.csproj", "{41ABEEC4-9540-459D-A9CB-A246932AB81E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "platon.Client", "platon\Client\platon.Client.csproj", "{F32031A0-CC45-4048-AFE4-A8CCA8BE6DFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "platon.Shared", "platon\Shared\platon.Shared.csproj", "{3A14325E-5FBD-4FE5-86AD-4B6522FC36A0}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{C4D4F5B8-52CC-408B-B2D4-541E11D85DC6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41ABEEC4-9540-459D-A9CB-A246932AB81E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41ABEEC4-9540-459D-A9CB-A246932AB81E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41ABEEC4-9540-459D-A9CB-A246932AB81E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41ABEEC4-9540-459D-A9CB-A246932AB81E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F32031A0-CC45-4048-AFE4-A8CCA8BE6DFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F32031A0-CC45-4048-AFE4-A8CCA8BE6DFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F32031A0-CC45-4048-AFE4-A8CCA8BE6DFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F32031A0-CC45-4048-AFE4-A8CCA8BE6DFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A14325E-5FBD-4FE5-86AD-4B6522FC36A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A14325E-5FBD-4FE5-86AD-4B6522FC36A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A14325E-5FBD-4FE5-86AD-4B6522FC36A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A14325E-5FBD-4FE5-86AD-4B6522FC36A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4D4F5B8-52CC-408B-B2D4-541E11D85DC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4D4F5B8-52CC-408B-B2D4-541E11D85DC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4D4F5B8-52CC-408B-B2D4-541E11D85DC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4D4F5B8-52CC-408B-B2D4-541E11D85DC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

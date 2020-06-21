@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  platon.server:
+    image: ${DOCKER_REGISTRY-}platon
+    build:
+      context: .
+      dockerfile: platon/Server/Dockerfile

@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  platon.server:
+    ports:
+      - "80"
+      - "443"
+    volumes:
+      - ~/.aspnet/https:/root/.aspnet/https:ro
+      - ~/.microsoft/usersecrets:/root/.microsoft/usersecrets:ro
+     
